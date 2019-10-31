@@ -64,72 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-{
-	margin-bottom: 15px
+body{
+	margin: 0 auto;
+	max-width: 900px;
 }
-{
-	margin: 0 auto
+header{
+	position: fixed;
+	top: 15px;
+	
 }
-#navigation-bar{
-	width: 100%
+header nav{
+	display: inline-block;
+	background-color: lightskyblue;
+	padding: 10px 0;
+	vertical-align: super;
 }
-.navigation a{
-	padding-left: 20px
+header .navigation a{
+	color: gray;
+	text-decoration: none;
+	padding-right: 55px;
+	
 }
-#navigation-bar{
-	border: 1px solid black;
-	background-color: plum;
-	display: flex;
-	justify-content: space-evenly;
+header .logo{
+	height: 50px;
+	padding-left: 40px;
+	padding-top: 15px;
 }
-#main-content{
-	margin-top: 75px;
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: space-between;
-}
-#title{
-	text-align: center;
+.main-content{
+	margin-top: 50px;
 	font-size: 70px;
+	border-bottom: solid 1px black;
+	padding-bottom: 50px;
+	width: 875px;
 }
-#button{
-	border-radius: 10px;
-	height: 35px;
-}
-#button:hover{
-	color: blue;
-	background-color: white;
-}
-#titleimg{
-	display: flex;
-	vertical-align: middle;
+.main-content .title{
+	display: inline-block;
 	width: 49%;
+	margin-top: 55px;
+	text-align: center;
+	vertical-align: middle;
+}
+.main-content .title .button{
+	margin-top: -45px;
+}
+.main-content .title button{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 40px;	
 }
 .top-content{
-	width: 100%;
-	vertical-align: middle;
-	text-align: left;
+	margin-top: 30px;
 }
-#featute, #about{
-	display: flex;
-	justify-content: space-between;
+.top-content .text-content{
+	display: inline-block;
+	width: 49%;
 }
 .middle-img{
-	text-align: center;
-	width: 100%;
+margin-top: 30px;
 }
 .bottom-content{
-	width: 100%;
-	vertical-align: middle;
-	text-align: left;
+	width: 876px;
+	margin-top: 30px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
 }
-#service, #product, #vision {
-	display: flex;
-	justify-content: space-between;
+.bottom-content .bottom-text{
+	display: inline-block;
+	width: 33%;
+}
+.contact{
+	margin-top: 30px;
 }
 footer{
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 75px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	font-family: 'Dosis', sans-serif;
 }
-
