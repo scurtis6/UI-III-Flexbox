@@ -68,41 +68,43 @@ body{
 	margin: 0 auto;
 	max-width: 900px;
 }
+/* this is code for the navigation*/
 header{
 	position: fixed;
 	top: 15px;
-	
+	display: flex;
 }
 header nav{
-	display: inline-block;
-	background-color: lightskyblue;
-	padding: 10px 0;
-	vertical-align: super;
+	width: 550px;
+	padding: 35px 0;
 }
 header .navigation a{
 	color: gray;
 	text-decoration: none;
-	padding-right: 55px;
-	
+	padding-right: 33px;
 }
 header .logo{
-	height: 50px;
-	padding-left: 40px;
+	height: 5vh;
+	padding-left: 45px;
 	padding-top: 15px;
 }
+/* this is code for the main content*/
 .main-content{
-	margin-top: 50px;
+	display: flex;
+	margin-top: 90px;
 	font-size: 70px;
 	border-bottom: solid 1px black;
 	padding-bottom: 50px;
 	width: 875px;
 }
 .main-content .title{
-	display: inline-block;
 	width: 49%;
 	margin-top: 55px;
 	text-align: center;
 	vertical-align: middle;
+}
+.main-content .title h1{
+	padding-top: 60px;
 }
 .main-content .title .button{
 	margin-top: -45px;
@@ -112,29 +114,35 @@ header .logo{
 	border: 1px solid black;
 	padding: 5px 40px;	
 }
+/* this is code fot the top content*/
 .top-content{
 	margin-top: 30px;
+	display: flex;
 }
 .top-content .text-content{
-	display: inline-block;
 	width: 49%;
 }
+/* this is code for the image*/
 .middle-img{
 margin-top: 30px;
 }
+/* this is code for the main content*/
 .bottom-content{
+	display: flex;
 	width: 876px;
 	margin-top: 30px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 }
 .bottom-content .bottom-text{
-	display: inline-block;
+	
 	width: 33%;
 }
+/* this is code for the contact information*/
 .contact{
 	margin-top: 30px;
 }
+/* this is code for the footer*/
 footer{
 	text-align: center;
 	margin-top: 50px;
