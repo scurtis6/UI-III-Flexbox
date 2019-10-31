@@ -193,3 +193,29 @@ footer{
 	border: 1px solid black;
 	border-radius: 4px;
 }
+.service-bottom{
+	display: flex;
+	margin-top: 30px;
+	border-top: 1px solid black;
+	padding-top: 40px;
+}
+.service-bottom .facts{
+	margin-right: 20px;
+	width: 450px;
+}
+.service-bottom .facts ul{
+	margin-top: 30px;
+	list-style-type: square;
+	margin-left: 18px;
+}
+.service-bottom .facts ul li{
+	padding-bottom: 3%;
+}
+.service-bottom img{
+	width: 430px;
+	margin-left: 20px;
+}
+.service-footer{
+	text-align: center;
+	margin-top: 100px;
+}
