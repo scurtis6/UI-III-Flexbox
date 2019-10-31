@@ -70,28 +70,29 @@ body{
 }
 /* this is code for the navigation*/
 header{
+	width: 900px;
 	position: fixed;
 	top: 15px;
 	display: flex;
 }
 header nav{
-	width: 550px;
-	padding: 35px 0;
+	width: 650px;
+	padding-top: 25px;
 }
 header .navigation a{
 	color: gray;
 	text-decoration: none;
-	padding-right: 33px;
+	padding-right: 45px;
 }
 header .logo{
-	height: 5vh;
-	padding-left: 45px;
+	height: 6vh;
+	padding-left: 20px;
 	padding-top: 15px;
 }
 /* this is code for the main content*/
 .main-content{
 	display: flex;
-	margin-top: 90px;
+	margin-top: 150px;
 	font-size: 70px;
 	border-bottom: solid 1px black;
 	padding-bottom: 50px;
@@ -99,9 +100,10 @@ header .logo{
 }
 .main-content .title{
 	width: 49%;
-	margin-top: 55px;
+	margin-top: 45px;
 	text-align: center;
 	vertical-align: middle;
+	margin-left: 50px;
 }
 .main-content .title h1{
 	padding-top: 60px;
@@ -148,4 +150,46 @@ footer{
 	margin-top: 50px;
 	margin-bottom: 100px;
 	font-family: 'Dosis', sans-serif;
+}
+/* this is code for the services html*/
+.services-header-img{
+	margin-top: 90px;
+}
+.service-top{
+	margin-top: 20px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+.service-top h1{
+	font-size: 20px;
+}
+.main-top{
+	display: flex;
+	margin-top: 30px;
+}
+.main-top .text-one{
+	background-color: rgb(240, 240, 240);
+	border: 1px solid black;
+	padding: 20px;
+	margin-right: 40px;
+}
+.main-top .text-one button{
+	margin-top: 20px;
+	padding: 10px 40px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+.main-top .text-two{
+	background-color: rgb(240, 240, 240);
+	border: 1px solid black;
+	padding: 20px;
+	margin-right: 0px;
+}
+.main-top .text-two button{
+	margin-top: 20px;
+	padding: 10px 40px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 4px;
 }
